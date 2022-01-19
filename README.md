@@ -1,9 +1,11 @@
 # Enable-fingerprint-reader-for-pop_os
 Script for setting up the fingerprint reader on pop_os
 
-List of supported devices https://fprint.freedesktop.org/supported-devices.html
+* Is your device supported? 
 
-In the USB standards, there is a well-defined way to get Vendor ID and Product ID numbers from any USB device. 
+List of fingerprint readers https://fprint.freedesktop.org/supported-devices.html
+
+If you are unsure about your reader id, in the USB standards, there is a well-defined way to get Vendor ID and Product ID numbers from any USB device. 
 lsusb just looks them up in a big table and displays the human-readable texts associated with those entries. 
 The table is typically located at /usr/share/misc/usb.ids or /var/lib/usbutils/usb.ids.
 
