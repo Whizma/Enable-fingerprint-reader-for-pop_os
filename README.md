@@ -12,4 +12,4 @@ The table is typically located at /usr/share/misc/usb.ids or /var/lib/usbutils/u
 
 If you have issues with registering a fingerprint where the dialog says Fingerprint reader disconnected, 
 I have found that this is usually related to previously trying to register the fingerprint through the cli or other means and not clearing it before trying to register again.
-This python script can show you any registered fingerprint and adding the -d flag will delete these fingerprints.
+The python script can show you any registered fingerprint and adding the -d flag will delete these fingerprints.
